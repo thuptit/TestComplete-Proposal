@@ -30,6 +30,24 @@
 				<Prp name="relpath" type="S" value="12_14_2023_10_19 AM_41_103\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45274.4620164815"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{E477B7FE-9B40-47B7-8A8E-F93AFA17D28D}"/>
+				<Prp name="nameofroot" type="S" value="Smart store search mobile phone"/>
+				<Prp name="relpath" type="S" value="12_14_2023_11_05 AM_18_224\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45274.5790097917"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5351C956-EC5E-4BD1-83A8-FA1319759BF9}"/>
+				<Prp name="nameofroot" type="S" value="Smart store search mobile phone"/>
+				<Prp name="relpath" type="S" value="12_14_2023_1_53 PM_46_446\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>

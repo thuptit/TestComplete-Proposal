@@ -1,7 +1,7 @@
 ﻿class BasePage {
   //default url is match for current page active
   constructor(url = '*'){
-    this.ide = btChrome;
+    this.ide = btEdge;
     this.pageUrl = url;
   }
   
@@ -22,7 +22,7 @@
   wait(){
     this.page.Wait();
   }
-  waitForElement(element, delayTime = 100){
+  waitForElement(element, delayTime = 500){
     let count = 0;
     do
     {

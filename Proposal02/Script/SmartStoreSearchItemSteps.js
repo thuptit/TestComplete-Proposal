@@ -4,8 +4,9 @@ const searchResultSmartStore = require('SearchResultSmartStorePage')
 const homeSTPage = homeSmartStore.createPage();
 const searchResultSTPage = searchResultSmartStore.createPage();
 
-Given("I navigate to {arg}", function (url){
-  homeSTPage.navigateTo(url);
+
+Given("I navigate to Home Smart Store", function (){
+  homeSTPage.navigateToPage();
 });
 
 When("I enter input search {arg} and click search button", function (param1){

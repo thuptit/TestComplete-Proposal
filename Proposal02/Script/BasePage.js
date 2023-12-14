@@ -10,6 +10,9 @@
     Browsers.Item(this.ide).Navigate(url);
     this.windowMaximize();
   }
+  navigateToPage(){
+    Browsers.Item(this.ide).Navigate(this.pageUrl);
+  }
   windowMaximize(){
     Sys.Browser().BrowserWindow(0).Maximize();
   }
@@ -22,7 +25,7 @@
   wait(){
     this.page.Wait();
   }
-  waitForElement(element, delayTime = 100){
+  waitForElement(element, delayTime = 500){
     let count = 0;
     do
     {
