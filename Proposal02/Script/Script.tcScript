@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="pages">
+			<child name="BasePage" key="{235A42DA-FC0D-48DF-B890-34A56E7EFB66}" path="BasePage.js" />
+			<child name="GoogleHomePage" key="{F4AD2C6E-ED70-4B10-A49D-29E1F975041C}" path="GoogleHomePage.js" />
+			<child name="GoogleResultPage" key="{0BAFADBE-AF8D-4B7A-B955-65AFAAB1268F}" path="GoogleResultPage.js" />
+		</folder>
+		<folder name="step-definitions">
+			<child name="GoogleSearchSteps" key="{1069CFF0-9944-4D3C-AF24-42C73FD89B47}" path="GoogleSearchSteps.js" />
+		</folder>
+	</children>
+</Root>

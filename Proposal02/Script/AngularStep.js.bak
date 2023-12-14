@@ -1,0 +1,26 @@
+﻿const angularPage = new (require("AngularPage")).AngularPage();
+const browser = Aliases.browser;
+
+Given("I navigate to {arg}", function (url){
+  Browsers.Item(btChrome).Run(url);
+});
+
+When("I type name {arg} into text field", function (name){  
+  angularPage.fillName(name);
+});
+
+Then("I validate greeting to be {arg}", function (greeting){
+  //const actualGreeting = aPage.getGreeting();
+  //Log.Message("actual greeting: " + actualGreeting);
+//  const expectedGreeting = greeting + "1111";
+  //Log.Message("Expected greeting: " + expectedGreeting);
+  const isBool = new Boolean(angularPage.isGreetingDisplayed(greeting));
+  Log.Message("is supported: " + aqObject.IsSupported(isBool, "value"));
+  Log.Message("value of " + aqObject.GetPropertyValue(isBool, "valueOf"));
+  aqObject.CompareProperty(isBool, "valueOf", new Boolean(true));
+  aqObject.CheckProperty(isBool, "valueOf", cmpEqual, true);
+  
+});
+
+
+ 

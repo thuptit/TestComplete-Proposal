@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{2D6B807F-F7F3-4A95-8A69-FE226BB85F45}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{0EFDF684-CB5A-4EC3-9D29-9F0AA599CF76}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{9B0F168C-18CB-4FBC-A2EA-2FF28E9C07CD}">
+								<Image FileName="-588255914" Left="-11" Top="-11" Right="3851" Bottom="2099" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageAngularjsSuperheroicJavascri" Key="{A319E4CE-77F9-4E0A-827A-19B547781770}">
+								<Image FileName="-588255914" Left="0" Top="115" Right="3840" Bottom="2087" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://angularjs.org/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textbox" Key="{416B5C14-8797-48CA-A0D1-D5FC0EE0B7DD}">
+										<Image FileName="-588255914" Left="2192" Top="965" Right="2521" Bottom="1006" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[contains(@class, &apos;ng-valid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHelloJulie" Key="{5E5427E9-41DC-4734-BA70-534D5A93C25D}">
+										<Image FileName="2081653655" Left="2192" Top="1076" Right="2583" Bottom="1130" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Hello Julie!&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;ng-binding&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/div/div/div/div/h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageGoogle" Key="{9670C6AF-00A3-4F34-BB5C-B0D85FDD2D0A}">
+								<Image FileName="702521121" Left="4" Top="104" Right="1876" Bottom="1036" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formSearch" Key="{152D4380-9D86-416B-995E-68060FF7B65C}">
+										<Image FileName="702521121" Left="24" Top="474" Right="1856" Bottom="616" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@role=&apos;search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{EEA06F65-8AD6-47A6-80B8-FF350C2FD03B}">
+										<Image FileName="702521121" Left="649" Top="481" Right="1231" Bottom="527" />
+										<TypeInfo Item0="{D5B8F086-9B56-497A-97D0-55CE34DCE4B8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;SDkEP&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@role=&apos;search&apos;]/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeGmail" Key="{D9E80B5F-2780-4AF6-93C3-C5158133E527}">
+										<Image FileName="-2137316850" Left="4" Top="104" Right="1876" Bottom="1036" />
+										<TypeInfo Item0="{D5B8F086-9B56-497A-97D0-55CE34DCE4B8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;Gmail&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaTMKiM" Key="{4D538D14-C849-4302-BDDB-C49CE23B6A46}">
+										<Image FileName="1822811626" Left="696" Top="492" Right="1099" Bottom="519" />
+										<TypeInfo Item0="{D5B8F086-9B56-497A-97D0-55CE34DCE4B8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#APjFqb" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@name=&apos;q&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@title=&apos;Tìm kiếm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[contains(@class, &apos;gLFyf&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSearch" Key="{B0A0D8CD-1259-4AE4-BAD5-1105B013C72E}">
+								<Image FileName="-110088473" Left="12" Top="112" Right="1884" Bottom="1044" />
+								<TypeInfo Item0="{BE35E136-16E3-4642-A5AF-1749ABFB0EEA}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelResultStats" Key="{EFAB8C0A-59F1-44A7-A2A2-4251D87AD78F}">
+										<Image FileName="-110088473" Left="242" Top="257" Right="501" Bottom="300" />
+										<TypeInfo Item0="{E6511364-A4FD-4689-ADF3-E18527BE60ED}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#result-stats" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[text()=&apos;Khoảng 24.400.000 kết quả&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;slim_appbar&apos;]//div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{0EFDF684-CB5A-4EC3-9D29-9F0AA599CF76}">
+			<Child Name="BrowserWindow" Owner="{9B0F168C-18CB-4FBC-A2EA-2FF28E9C07CD}" />
+			<Child Name="pageAngularjsSuperheroicJavascri" Owner="{A319E4CE-77F9-4E0A-827A-19B547781770}">
+				<Child Name="textbox" Owner="{416B5C14-8797-48CA-A0D1-D5FC0EE0B7DD}" />
+				<Child Name="textnodeHelloJulie" Owner="{5E5427E9-41DC-4734-BA70-534D5A93C25D}" />
+			</Child>
+			<Child Name="pageGoogle" Owner="{9670C6AF-00A3-4F34-BB5C-B0D85FDD2D0A}">
+				<Child Name="formSearch" Owner="{152D4380-9D86-416B-995E-68060FF7B65C}">
+					<Child Name="panel" Owner="{EEA06F65-8AD6-47A6-80B8-FF350C2FD03B}" />
+					<Child Name="textareaTMKiM" Owner="{4D538D14-C849-4302-BDDB-C49CE23B6A46}" />
+				</Child>
+				<Child Name="textnodeGmail" Owner="{D9E80B5F-2780-4AF6-93C3-C5158133E527}" />
+			</Child>
+			<Child Name="pageSearch" Owner="{B0A0D8CD-1259-4AE4-BAD5-1105B013C72E}">
+				<Child Name="panelResultStats" Owner="{EFAB8C0A-59F1-44A7-A2A2-4251D87AD78F}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

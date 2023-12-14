@@ -1,0 +1,17 @@
+﻿const googleHome = require('GoogleHomePage')
+const googleResult = require('GoogleResultPage');
+
+const homePage = googleHome.createPage();
+const resultPage = googleResult.createPage();
+
+Given("I run to {arg}", function (param1){
+  homePage.navigateTo(param1);
+});
+
+When("I search for a keyword {arg}", function (param1){
+  homePage.fillSearch(param1)
+});
+
+Then("I should see the number of result is {arg}", function (param1){
+  resultPage.isValidResult(param1)
+});

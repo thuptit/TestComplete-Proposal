@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45273.6271980208"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFADEARQA4ADgANAAwAEMALQAwAEYAMwAzAC0ANAA4ADUARgAtADgANgAzADUALQA1ADkAQgBEAEIAMwA1AEMANwBEAEUAQwB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="duration" type="I" value="6764"/>
+						<Prp name="durationwithoutchildren" type="I" value="6764"/>
+						<Prp name="name" type="S" value="Google search GEM"/>
+					</Node>
+				</Node>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="45273.6271980208"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="6764"/>
+				<Prp name="name" type="S" value="Proposal02"/>
+			</Node>
+		</Node>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="45273.627191875"/>
+		<Prp name="name" type="S" value="MigrationSample"/>
+		<Prp name="testname" type="S" value="[All Scenarios]"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="key" type="S" value="{ABD7F824-55B6-470A-B61B-CD470A3D52DF}"/>
+		<Prp name="stop" type="D" value="45273.6272772454"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="user" type="S" value="thunv"/>
+		<Prp name="host" type="S" value="THUNV"/>
+	</Node>
+</Nodes>

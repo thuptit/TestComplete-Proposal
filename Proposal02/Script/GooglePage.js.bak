@@ -1,0 +1,39 @@
+﻿const pageBase = require('BasePage')
+function createGooglePage(){
+  return new GooglePage();
+}
+class GooglePage extends pageBase.BasePage{
+  constructor(){
+    super()
+  }
+  //actions
+  navigateTo(url){
+    Browsers.Item(btEdge).Navigate("https://www.google.com/");
+  }
+  fillSearch(searchText){
+    const pannel = this.getPannelSearch();
+    pannel.Click();
+    const formSearch = this.getFormSearch();
+    formSearch.Click();
+    formSearch.Keys(searchText + "[Enter]");
+    this.getCurrentPage().Wait();
+  }
+  isValidResult(expectedResult){
+    aqObject.CheckProperty(Aliases.browser.pageSearch.FindElement("#result-stats"), "contentText", cmpContains, expectedResult);
+  }
+  
+  //page objects
+  getCurrentPage(){
+    return Sys.Browser().Page("*");
+  }
+  getFormSearch(){
+    return this.getCurrentPage().FindElement("//textarea[@title='Tìm kiếm']");
+  }
+  getPannelSearch() {
+    return this.getCurrentPage().FindElement("//div[contains(@class, 'SDkEP')]")
+  }
+}
+module.exports = {
+  createGooglePage,
+  GooglePage
+}
