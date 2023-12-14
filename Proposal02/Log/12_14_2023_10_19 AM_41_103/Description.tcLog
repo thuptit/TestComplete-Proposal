@@ -19,16 +19,16 @@
 ]>
 <Nodes version="1">
 	<Node name="root">
-		<Prp name="warning count" type="I" value="0"/>
-		<Prp name="stop time" type="D" value="45273.6053531481"/>
-		<Prp name="root logdata name" type="S" value="Google search GEM"/>
-		<Prp name="computer name" type="S" value="THUNV"/>
-		<Prp name="error count" type="I" value="0"/>
-		<Prp name="completed" type="B" value="-1"/>
-		<Prp name="test type" type="S" value="Google search GEM"/>
 		<Prp name="root file name" type="S" value="RootLogData.dat"/>
-		<Prp name="status" type="I" value="0"/>
 		<Prp name="user name" type="S" value="thunv"/>
-		<Prp name="start time" type="D" value="45273.6052904745"/>
+		<Prp name="computer name" type="S" value="THUNV"/>
+		<Prp name="status" type="I" value="0"/>
+		<Prp name="error count" type="I" value="0"/>
+		<Prp name="warning count" type="I" value="0"/>
+		<Prp name="completed" type="B" value="-1"/>
+		<Prp name="test type" type="S" value="Proposal02"/>
+		<Prp name="stop time" type="D" value="45274.4305057523"/>
+		<Prp name="root logdata name" type="S" value="Proposal02"/>
+		<Prp name="start time" type="D" value="45274.4303368403"/>
 	</Node>
 </Nodes>

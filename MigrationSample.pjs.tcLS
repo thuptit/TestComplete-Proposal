@@ -24,7 +24,7 @@
 				<Prp name="relpath" type="S" value="Proposal01\Proposal01.mds.tcLS"/>
 			</Node>
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="default project" type="S" value="{11FF61A1-A200-4344-8212-082468B41523}"/>
+				<Prp name="default project" type="S" value="{46A06749-C69D-4A10-98A1-3A4360D09357}"/>
 			</Node>
 			<Node name="{46a06749-c69d-4a10-98a1-3a4360d09357}">
 				<Prp name="relpath" type="S" value="Proposal02\Proposal02.mds.tcLS"/>

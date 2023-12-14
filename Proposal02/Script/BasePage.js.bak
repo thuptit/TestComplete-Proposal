@@ -1,13 +1,23 @@
 ﻿class BasePage {
   //default url is match for current page active
   constructor(url = '*'){
-    this.ide = btEdge;
+    this.ide = btChrome;
     this.pageUrl = url;
   }
   
   //actions
   navigateTo(url){
     Browsers.Item(this.ide).Navigate(url);
+    this.windowMaximize();
+  }
+  windowMaximize(){
+    Sys.Browser().BrowserWindow(0).Maximize();
+  }
+  windowMinimize(){
+    Sys.Browser().BrowserWindow(0).Minimize();
+  }
+  closeBrowser(){
+    Sys.Browser().Close();
   }
   wait(){
     this.page.Wait();
@@ -24,7 +34,7 @@
   screetshot(e, fileName = ''){
     const capture = e.Picture();
     if(fileName === ''){
-      fileName = 'unknown_name';
+      fileName = 'unknownname_';
     }
     
     const currentDate = new Date();

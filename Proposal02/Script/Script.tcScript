@@ -5,9 +5,12 @@
 			<child name="BasePage" key="{235A42DA-FC0D-48DF-B890-34A56E7EFB66}" path="BasePage.js" />
 			<child name="GoogleHomePage" key="{F4AD2C6E-ED70-4B10-A49D-29E1F975041C}" path="GoogleHomePage.js" />
 			<child name="GoogleResultPage" key="{0BAFADBE-AF8D-4B7A-B955-65AFAAB1268F}" path="GoogleResultPage.js" />
+			<child name="HomeSmartStorePage" key="{9692D5E8-EEFB-4C2C-86E5-99FDA7533380}" path="HomeSmartStorePage.js" />
+			<child name="SearchResultSmartStorePage" key="{ECF67005-4A7B-4937-96B7-65417C7FC090}" path="SearchResultSmartStorePage.js" />
 		</folder>
 		<folder name="step-definitions">
 			<child name="GoogleSearchSteps" key="{1069CFF0-9944-4D3C-AF24-42C73FD89B47}" path="GoogleSearchSteps.js" />
+			<child name="SmartStoreSearchItemSteps" key="{BA8568CD-5AED-4ABE-8851-4DFCB97689D7}" path="SmartStoreSearchItemSteps.js" />
 		</folder>
 	</children>
 </Root>

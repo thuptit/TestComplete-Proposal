@@ -23,20 +23,11 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45273.6052904745"/>
+				<Prp name="datetime" type="D" value="45274.4303368403"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{67EE9494-5903-4380-B064-FC5EC189DF9C}"/>
-				<Prp name="nameofroot" type="S" value="Google search GEM"/>
-				<Prp name="relpath" type="S" value="12_13_2023_2_31 PM_37_97\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0001">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45273.6271918056"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{AE8DFAA2-BF19-4989-A624-51052BAA2ADA}"/>
-				<Prp name="nameofroot" type="S" value="google search"/>
-				<Prp name="relpath" type="S" value="12_13_2023_3_03 PM_09_373\Description.tcLog"/>
+				<Prp name="key" type="S" value="{97F909A2-0061-4014-92C1-05CED94A9DDA}"/>
+				<Prp name="nameofroot" type="S" value="Proposal02"/>
+				<Prp name="relpath" type="S" value="12_14_2023_10_19 AM_41_103\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
 		</Node>

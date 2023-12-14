@@ -169,6 +169,89 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageShop" Key="{5A4B4046-6D98-4619-8824-E0D24E634782}">
+								<Image FileName="-598057352" Left="4" Top="104" Right="1876" Bottom="1036" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbearstore.smartbear.com/samples/TestComplete14/smartstore" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{0589EEF0-7B55-49A9-BFEE-DD8291D5621B}">
+										<Image FileName="-598057352" Left="4" Top="104" Right="1861" Bottom="283" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSearch" Key="{7A5820AD-E29C-4D15-8991-78566EB68FF6}">
+										<Image FileName="-598057352" Left="388" Top="163" Right="1179" Bottom="206" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;search&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;instasearch-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInstasearch" Key="{765CFD19-53B2-4858-A3B6-23E4F2DF1C6C}">
+										<Image FileName="-598057352" Left="388" Top="163" Right="1179" Bottom="206" />
+										<TypeInfo Item0="{B503388B-3CBC-4969-A7FB-714200B8825F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#instasearch" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;q&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;instasearch-term&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSearch" Key="{AF7ECE32-A467-4C1C-A8A6-7A65C0D67DEF}">
+										<Image FileName="-66451536" Left="1135" Top="163" Right="1178" Bottom="206" />
+										<TypeInfo Item0="{D62666AD-92E4-42C8-899F-B5714C6C05E2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@title=&apos;Search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -191,6 +274,14 @@
 			</Child>
 			<Child Name="pageSearch" Owner="{B0A0D8CD-1259-4AE4-BAD5-1105B013C72E}">
 				<Child Name="panelResultStats" Owner="{EFAB8C0A-59F1-44A7-A2A2-4251D87AD78F}" />
+			</Child>
+			<Child Name="pageShop" Owner="{5A4B4046-6D98-4619-8824-E0D24E634782}">
+				<Child Name="header" Owner="{0589EEF0-7B55-49A9-BFEE-DD8291D5621B}">
+					<Child Name="formSearch" Owner="{7A5820AD-E29C-4D15-8991-78566EB68FF6}">
+						<Child Name="textboxInstasearch" Owner="{765CFD19-53B2-4858-A3B6-23E4F2DF1C6C}" />
+						<Child Name="buttonSearch" Owner="{AF7ECE32-A467-4C1C-A8A6-7A65C0D67DEF}" />
+					</Child>
+				</Child>
 			</Child>
 		</Child>
 	</LogicalNodes>

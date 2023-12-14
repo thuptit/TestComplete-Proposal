@@ -8,6 +8,16 @@
   //actions
   navigateTo(url){
     Browsers.Item(this.ide).Navigate(url);
+    this.windowMaximize();
+  }
+  windowMaximize(){
+    Sys.Browser().BrowserWindow(0).Maximize();
+  }
+  windowMinimize(){
+    Sys.Browser().BrowserWindow(0).Minimize();
+  }
+  closeBrowser(){
+    Sys.Browser().Close();
   }
   wait(){
     this.page.Wait();

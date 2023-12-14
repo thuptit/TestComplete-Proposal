@@ -774,4 +774,56 @@
 			</FunctionDescriptions>
 		</Data>
 	</Child>
+	<Child Hash="-1499759746" Key="{B503388B-3CBC-4969-A7FB-714200B8825F}">
+		<Data Properties="1BA5F9401FE2EF4991FB68F9EC31C118UFFFFFFFFFFFFFFFFV4L7ZZY">
+			<FunctionDescriptions>
+				<Child Name="SetText" Doc="Enters text in the text box." IsBasic="True" Param0="Text" Data="ZI4L1L4L1Z018ZN">
+					<Param0>
+						<TypeDesc Param0="8" />
+						<ParamDesc Flags="1" />
+					</Param0>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Text" IsBasic="True" Data="ZI4L2L4ZO8ZN">
+					<ReturnValue Param0="8" />
+				</Child>
+				<Child Name="wText" IsBasic="True" Data="ZI4L2L4ZO8Z04L">
+					<ReturnValue Param0="8" />
+				</Child>
+				<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+					<ReturnValue Param0="19" />
+				</Child>
+				<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+					<ReturnValue Param0="19" />
+				</Child>
+				<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+			</FunctionDescriptions>
+		</Data>
+	</Child>
+	<Child Hash="-516859284" Key="{D62666AD-92E4-42C8-899F-B5714C6C05E2}">
+		<Data Properties="0E08C381BDF4ED4191C703255C0B3684UFFFFFFFFFFFFFFFFV4L5ZZY">
+			<FunctionDescriptions>
+				<Child Name="ClickButton" Doc="Performs a single click on the specified button." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+					<ReturnValue Param0="19" />
+				</Child>
+				<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+					<ReturnValue Param0="19" />
+				</Child>
+				<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+			</FunctionDescriptions>
+		</Data>
+	</Child>
 </TypeInfo>
