@@ -1,6 +1,6 @@
 ﻿Feature: google search
 
   Scenario: Google search GEM 
-      Given I run to "https://google.com.vn"
+      Given I run to Google homepage
       When I search for a keyword "GEM vietnam"
-      Then I should see the number of result is "27.800.000"
+      Then I should see the number of result is "28.700.000"

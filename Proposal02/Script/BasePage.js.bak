@@ -10,6 +10,10 @@
     Browsers.Item(this.ide).Navigate(url);
     this.windowMaximize();
   }
+  navigateToPage(){
+    Browsers.Item(this.ide).Navigate(this.pageUrl);
+    this.wait();
+  }
   windowMaximize(){
     Sys.Browser().BrowserWindow(0).Maximize();
   }

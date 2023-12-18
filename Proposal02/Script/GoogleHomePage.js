@@ -4,15 +4,13 @@ function createPage(){
 }
 class GoogleHomePage extends pageBase.BasePage {
   constructor(){
-    super()
+    super("https://www.google.com.vn/")
   }
   //actions
   fillSearch(searchText){
-    this.screetshot(this.page);
     this.pannel.Click();
     this.formSearch.Click();
     this.formSearch.Keys(searchText + "[Enter]");
-    this.wait();
   }
   
   //properties

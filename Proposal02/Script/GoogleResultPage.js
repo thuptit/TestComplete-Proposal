@@ -9,6 +9,7 @@ class GoogleResultPage extends pageBase.BasePage{
   
   //actions
   isValidResult(expectedResult){ 
+    this.wait()
     aqObject.CheckProperty(this.resultSearch, "contentText", cmpContains, expectedResult);
   }
   
