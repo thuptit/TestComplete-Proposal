@@ -11,34 +11,8 @@
 						<Value Value="Sys" />
 					</Property>
 				</Properties>
-				<Children>
-					<Child Name="browser" Key="{0EFDF684-CB5A-4EC3-9D29-9F0AA599CF76}">
-						<Properties>
-							<Property Name="ObjectType">
-								<Value Value="Browser" />
-							</Property>
-						</Properties>
-						<Children>
-							<Child Name="BrowserWindow" Key="{9B0F168C-18CB-4FBC-A2EA-2FF28E9C07CD}">
-								<Image FileName="-588255914" Left="-11" Top="-11" Right="3851" Bottom="2099" />
-								<Properties>
-									<Property Name="ObjectType">
-										<Value Value="BrowserWindow" />
-									</Property>
-									<Property Name="ObjectIdentifier">
-										<Value Value="0" Type="0" />
-									</Property>
-								</Properties>
-							</Child>
-						</Children>
-					</Child>
-				</Children>
 			</Child>
 		</Children>
 	</Nodes>
-	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
-		<Child Name="browser" Owner="{0EFDF684-CB5A-4EC3-9D29-9F0AA599CF76}">
-			<Child Name="BrowserWindow" Owner="{9B0F168C-18CB-4FBC-A2EA-2FF28E9C07CD}" />
-		</Child>
-	</LogicalNodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
 </Root>

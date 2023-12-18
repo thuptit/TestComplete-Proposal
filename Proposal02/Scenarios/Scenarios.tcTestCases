@@ -2,4 +2,5 @@
 <Scenarios>
 	<Feature Path="google search.feature" />
 	<Feature Path="Smart store search item.feature" />
+	<Feature Path="Find list Products.feature" />
 </Scenarios>

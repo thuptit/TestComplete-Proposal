@@ -7,10 +7,12 @@
 			<child name="GoogleResultPage" key="{0BAFADBE-AF8D-4B7A-B955-65AFAAB1268F}" path="GoogleResultPage.js" />
 			<child name="HomeSmartStorePage" key="{9692D5E8-EEFB-4C2C-86E5-99FDA7533380}" path="HomeSmartStorePage.js" />
 			<child name="SearchResultSmartStorePage" key="{ECF67005-4A7B-4937-96B7-65417C7FC090}" path="SearchResultSmartStorePage.js" />
+			<child name="MobilePhoneSmartStorePage" key="{7A8C2226-947F-47A0-B14C-9F5EAB263D88}" path="MobilePhoneSmartStorePage.js" />
 		</folder>
 		<folder name="step-definitions">
 			<child name="GoogleSearchSteps" key="{1069CFF0-9944-4D3C-AF24-42C73FD89B47}" path="GoogleSearchSteps.js" />
 			<child name="SmartStoreSearchItemSteps" key="{BA8568CD-5AED-4ABE-8851-4DFCB97689D7}" path="SmartStoreSearchItemSteps.js" />
+			<child name="FindProductsSteps" key="{AAB9C219-411F-4083-91EC-357BB5C8A792}" path="FindProductsSteps.js" />
 		</folder>
 	</children>
 </Root>
