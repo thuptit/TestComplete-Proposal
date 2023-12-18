@@ -9,6 +9,7 @@ class SearchResultSmartStorePage extends base.BasePage{
     super('https://smartbearstore.smartbear.com/samples/TestComplete14/smartstore/search*')
   }
   hasItem(nameItem){
+    this.wait();
     aqObject.CheckProperty(this.itemName, "contentText", cmpEqual, nameItem);
     this.closeBrowser();
   }

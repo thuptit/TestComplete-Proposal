@@ -9,7 +9,6 @@ class HomeSmartStorePage extends base.BasePage {
   searchItem(searchText){
     this.textboxInstaSearch.SetText("Phone");
     this.buttonSearch.ClickButton();
-    this.wait();
   }
   get textboxInstaSearch(){
     return this.page.FindElement('#instasearch')

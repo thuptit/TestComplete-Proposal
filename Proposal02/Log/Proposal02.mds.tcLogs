@@ -48,6 +48,15 @@
 				<Prp name="relpath" type="S" value="12_18_2023_10_16 AM_29_222\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45278.4345346875"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{9B7649F1-E0EA-403B-9DCC-DAEAE9D93E9E}"/>
+				<Prp name="nameofroot" type="S" value="Proposal02"/>
+				<Prp name="relpath" type="S" value="12_18_2023_10_25 AM_43_797\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>

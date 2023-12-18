@@ -10,6 +10,7 @@ class SearchResultSmartStorePage extends base.BasePage{
   }
   hasItem(nameItem){
     aqObject.CheckProperty(this.itemName, "contentText", cmpEqual, nameItem);
+    this.closeBrowser();
   }
   get itemName(){
     return this.page.FindElement("//span[.='Phone Minus']"); 
