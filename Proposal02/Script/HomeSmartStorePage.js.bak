@@ -5,7 +5,8 @@ function createPage(){
 class HomeSmartStorePage extends base.BasePage {
   constructor(){
     super('https://smartbearstore.smartbear.com/samples/TestComplete14/smartstore')
-    this.articleName = ''
+    this.articleName = '';
+    this.productName = '';
   }
   
   //actions
@@ -25,14 +26,33 @@ class HomeSmartStorePage extends base.BasePage {
   get buttonSearch(){
     return this.page.FindElement("//button[@title='Search']")
   }
+  
+  //build tree element from parent dom
   get article(){
-    const xpathExpression = `//article[contains(., '${this.articleName}')]`;
-    const element = this.page.FindElement(`//article[contains(., '${this.articleName}')]`);
-    const textNote = element.FindElement("//div[@id='content-center']//article//a/span")
     return {
-      element,
-      textNote
+      element: this.page.FindElement(`//article[contains(., '${this.articleName}')]`),
+      get textNote(){
+        return this.element.FindElement("//div[@id='content-center']//article//a/span")
+      }
     };
+  }
+  
+  //get textNode simple: this.products.article.textNote;
+  get products(){
+    return {
+      element: this.page.FindElement("//div[@class='product-grid-home-page']"),
+      get title(){
+        return this.element.FindElement("//h3[@class='heading-title']")
+      },
+      get article(){
+        return {
+          element: this.element.FindElement(`//article[contains(., '${this.productName}')]`),
+          get textNote(){
+            return this.element.FindElement('//h3//a//span')
+          }
+        }
+      }
+    }
   }
 }
 
