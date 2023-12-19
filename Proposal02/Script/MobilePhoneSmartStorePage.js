@@ -2,7 +2,7 @@
 function createPage(){
   return new MobilePhoneSmartStorePage()
 }
-class MobilePhoneSmartStorePage extends base.BasePage{
+class MobilePhoneSmartStorePage extends base.BasePage {
   constructor(){
     super('https://smartbearstore.smartbear.com/samples/TestComplete14/smartstore/apple*')
   }
@@ -10,7 +10,6 @@ class MobilePhoneSmartStorePage extends base.BasePage{
   //actions
   hasLength(nums){
     this.wait();
-    Log.Message("length:"+this.gridItems.length)
     aqObject.CompareProperty(this.gridItems.length, cmpEqual, nums);
   }
   

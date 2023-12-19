@@ -19,6 +19,11 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
+			<testItem name="Find list Product" key="{05C7DC73-B00F-4C44-A7E6-252C7E8F03F8}" group="False" parallel="False" enabled="True" testMoniker="Find list Products|*" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{194AB0C2-F4B3-4136-9B43-21C2E537E79E}" />
